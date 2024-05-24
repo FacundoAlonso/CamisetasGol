@@ -1,0 +1,90 @@
+ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 5px;
+    border:2px solid skyblue;
+    border-radius: 10px 10px;
+    margin-right: 40px;
+background-color: rgb(159, 255, 6);
+
+
+}
+nav ul li a {
+text-decoration: none;
+font-size: 15px;
+font-weight: 400px;
+
+}
+
+.fondo-verde{
+    background-color: 159 255 6;
+}
+footer .flexFooter{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 15px;
+}
+
+
+
+
+.tamano-camisetas
+{
+    height: 250px;
+    width: 40%;
+    background-color: greenyellow;
+    padding-left: 350px;
+    padding-right: 350px;
+    display: flex;
+}
+.fuente-nueva
+{.jacquard-24-regular 
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: aqua;
+    font-size; 20px
+   }
+
+   .logo-casaca{
+    background-color: rgb(157, 255, 9);
+    height: 90px;
+    width: 100px;
+   }
+
+#intro{
+    color: blueviolet;
+    padding: 2px 2px 2px 2px;
+border: 3px solid black
+   ;
+   margin: 50px 100px 10px 100px
+}
+.menu-principal{
+    flex-flow: wrap;
+}
+.div-class{
+    display: grid;
+    grid-template-columns: 100px repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "talle medidas"
+        "S medidas"
+        "M medidas"
+        "L medidas"
+        "XL medidas";
+    padding: 10px;
+    background-color: rgb(44, 189, 15);
+    height: 20px;
+    width: 100px;
+    margin: auto;
+    border: solid black
+    ;
+}
+@media screen {max-width: 768px;
+   
+    
+}
